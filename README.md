@@ -1,5 +1,10 @@
 # A/B-тест: реклама против PSA на реальных данных
 
+## Summary (EN)
+
+Analysis of the Marketing A/B Testing dataset (Kaggle, CC0): 588,101 users in a 96/4 ad-vs-PSA holdout. Conversion 2.55% vs 1.79% (+0.77 pp, 95% CI 0.60–0.94, p ≈ 4.8e-18). Covers sample-size design, SRM checks, bootstrap, Holm correction and segment analysis.
+
+
 Анализ открытого эксперимента [Marketing A/B Testing](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) (Kaggle, лицензия CC0 1.0): 588 101 пользователь, две группы — реклама (`ad`) и публичное объявление-заглушка (`psa`). Метрика — конверсия.
 
 В кейсе: проверка дизайна и баланса групп, тест на конверсию с доверительным интервалом, сегменты по дням и часам с поправкой на множественные сравнения, анализ «дозы» показов и честные ограничения.
