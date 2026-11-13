@@ -128,3 +128,12 @@ SRM против 50/50 ожидаемо не проходит: χ² = 497 769, p
 ## Лицензия
 
 Код и материалы — [MIT](LICENSE). Данные принадлежат источнику: [Marketing A/B Testing](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) — CC0 1.0 (Kaggle).
+
+## Тесты
+
+```bash
+pip install pytest
+pytest -q
+```
+
+Покрыты расчёт разницы долей и доверительного интервала, бутстрэп и поправка Холма (`tests/test_experiment.py`).
