@@ -137,7 +137,7 @@ SRM против 50/50 ожидаемо не проходит: χ² = 497 769, p
 ## Тесты
 
 ```bash
-pip install pytest
+pip install -r requirements-dev.txt
 pytest -q
 ```
 
